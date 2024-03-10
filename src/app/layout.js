@@ -11,8 +11,11 @@ import { GoogleTagManager } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+
   title: "PG เว็บตรง เว็บใหญ่ปลอดภัย มั่นคงอันดับ 1 ในไทย",
   description: "PG เว็บตรง คาสิโนออนไลน์ฟรี – เพลิดเพลินไปกับเกมสดและออนไลน์!",
+  title: "PG เว็บตรง มั่นคงอันดับ 1 ในไทย",
+  description: "PG เว็บตรง มั่นคงอันดับ 1 ในไทย PG เว็บตรง แหล่งรวมเกมออนไลน์สุดสนุก",
 };
 
 export default function RootLayout({ children }) {
