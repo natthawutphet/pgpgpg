@@ -2,9 +2,14 @@ import React from 'react'
 
 function page() {
   return (
-    <div>
-      
-    </div>
+    <>
+<section className='container text-center m-5 p-5'> 
+
+
+
+
+</section>
+    </>
   )
 }
 

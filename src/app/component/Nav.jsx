@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Nav() {
   return (
@@ -8,37 +9,37 @@ function Nav() {
 
       <nav className="navbar navbar-expand-lg linecuttop01 linecutbt01 ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">
-        <img src="/img/favicon.ico" alt="logo" className='logo'/>
-    </a>
+    <Link className="navbar-brand" href="/">
+    <Image  src="/img/favicon.ico" alt="logo" width={60} height={60}/>
+    </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" id='pgnav' aria-current="page" href="/">Home</Link>
+          <Link className="nav-link active" id='pgnav' aria-current="page" href="https://thaisocialforme.com/">Home</Link>
         </li>
         <li className="nav-item" >
-          <Link className="nav-link" id='pgnav' href="/slot">สล็อตออนไลน์</Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/slot">สล็อตออนไลน์</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/casino">casino</Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/casino">casino</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/football">ฟุตบอล</Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/football">ฟุตบอล</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/sport">กีฬา</Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/sport">กีฬา</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/fish">ยิงปลา</Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/fish">ยิงปลา</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/lottery">หวย</Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/lottery">หวย</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/contact">  ติดต่อเรา </Link>
+          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/contact">  ติดต่อเรา </Link>
         </li>
       </ul>
       <span className="navbar-text">

@@ -36,8 +36,9 @@ main {
     color: aliceblue;
 }
 
-
-
+.imge {
+    width: 100%;
+}
 
 
 
@@ -47,7 +48,10 @@ nav {
     color: rgb(239, 244, 249);
 }
 
-
+.img {
+    max-width: 500px;
+    height: auto;
+}
 
 
 
@@ -115,8 +119,13 @@ footer {
    background-color: rgb(137, 137, 137);
 }
 
-
-
+.imgt {
+    display: flex;
+    max-width: 1000px;
+}
+.imge {
+    width: 600px;
+}
 
 
 
@@ -133,8 +142,17 @@ footer {
         width: 33%;
     
     }
-
-
+   .img {
+    width: 80%;
+   }
+   .imgt {
+    display: block;
+    max-width: 400px;
+}
+.imge {
+    width: 100%;
+    height: auto;
+}
 
 
 

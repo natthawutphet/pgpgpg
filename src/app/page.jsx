@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -21,22 +21,22 @@ export default function page() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <div className="sliimg">  
-      <img src="/img/all/pro01.jpg" className="sliimg  mx-auto" alt="pg pro1"/>
+      <Image src="/img/all/pro01.jpg"  width={480} height={480} className='imge' alt="PG" />
       </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-      <img src="/img/all/pro02.jpg" className="sliimg  mx-auto" alt="pg pro2"/>
+    <Image src="/img/all/pro01.jpg"  width={480} height={480} alt="PG"className='imge' />
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-      <img src="/img/all/pro03.jpg" className="sliimg  mx-auto" alt="pg pro3"/>
+    <Image src="/img/all/pro01.jpg"  width={480} height={480} alt="PG" className='imge'/>
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-      <img src="/img/all/pro04.jpg" className="sliimg  mx-auto" alt="pg pro4"/>
+    <Image src="/img/all/pro01.jpg"  width={480} height={480} alt="PG"className='imge' />
     </div>
     </div>
   </div>
@@ -68,9 +68,12 @@ export default function page() {
 
      <div className="boxt text-center p-3">  
 
-      <img src="/img/all/t1.png" className="timg" alt=""/>
-      <img src="/img/all/t2.png" className="timg" alt=""/>
-      <img src="/img/all/t3.png" className="timg" alt=""/>
+
+     <div className="imgt">  
+     <Image src="/img/all/t1.png"  width={480} height={100} alt="PG"className='imge' />
+     <Image src="/img/all/t2.png"  width={480} height={100} alt="PG"className='imge' />
+     <Image src="/img/all/t3.png"  width={480} height={100} alt="PG"className='imge' />
+     </div>
       </div>
       </div>
     
@@ -87,7 +90,10 @@ export default function page() {
       </p>
      
      
-     <img src="/img/all/aboutimg.png" alt="" /></div>  
+      <Image src="/img/all/xx.png"  width={480} height={480} alt="PG"className='imge' />
+     
+     
+     </div>  
      </main>
 
      <section className='about text-center'>
@@ -99,13 +105,13 @@ export default function page() {
 
 </p>
         <div className="pg">  
-     <img src="/img/all/about2.png" className='pgimg' alt="PG" />
+        <Image src="/img/all/03.jpg"  width={480} height={480} alt="PG"className='imge' />
      </div>
      <div className="xxx"></div>
         <h3>สนุกได้ทุกเวลา, ทุกที่ – ไม่มีข้อจำกัด! <strong>PG เว็บตรง</strong></h3>
 
         <div className="pg">  
-     <img src="/imge/1.gif" className='pgimg' alt="PG" />
+        <Image src="/imge/1.gif"  width={980} height={480} alt="PG"className='imge' />
      </div>
 
        <p><strong>PG เว็บตรง</strong>ระบบฝากถอนออโต้? ไม่ใช่ที่นี่! เพราะเราไม่มีการเดิมพันเงินจริง, ทุกการเล่นเกมที่นี่คือการเล่นฟรี 100%. เพียงสมัครสมาชิกกับเรา, คุณก็พร้อมดำดิ่งสู่โลกแห่งเกมออนไลน์ที่หลากหลาย – เล่นได้ตลอด 24 ชั่วโมง, ไม่ว่าจะเป็นเกมสปอร์ต, เกมคาสิโนสด, หรือเกมอื่นๆ อีกมากมาย.
@@ -115,7 +121,7 @@ export default function page() {
      <h3>ทำไมต้องเลือก <strong>PG เว็บตรง</strong>
 </h3>
 <div className="pg">  
-     <img src="/imge/2.gif" className='pgimg' alt="PG" />
+<Image src="/imge/2.gif"  width={1480} height={680} alt="PG"className='imge' />
      </div>
   <p> เล่นฟรี: ไม่มีค่าใช้จ่าย, ไม่มีการเดิมพัน, ไม่มีความเสี่ยง.
  </p>
@@ -127,7 +133,7 @@ export default function page() {
 </h3>
 <div className="xxx"></div>
 <div className="pg">  
-     <img src="/imge/3.gif" className='pgimg' alt="PG" />
+<Image src="/imge/3.gif"  width={1480} height={680} alt="PG"className='imge' />
      </div>
 <p>หากคุณมีคำถามหรือต้องการความช่วยเหลือ, ทีมงานของเราพร้อมให้บริการคุณตลอด 24 ชั่วโมงผ่านเว็บหลักของเรา. สมัครสมาชิกวันนี้เพื่อเข้าถึงเกมออนไลน์ฟรีที่คุณไม่ควรพลาด!</p>
 <div className="xxx"></div>
@@ -146,7 +152,8 @@ export default function page() {
 </p>
 <div className="xxx"></div>
 <div className="pg">  
-     <img src="/imge/01.png" className='pgimg' alt="PG" />
+ 
+     <Image src="/imge/01.png" width={1480} height={680} alt="PG"className='imge' />
      </div>
 
 
@@ -155,7 +162,9 @@ export default function page() {
 <p>ที่ <strong>PG เว็บตรง</strong> , เรานำเสนอเกมคาสิโนสุดคลาสสิกในรูปแบบฟรีที่ไม่เกี่ยวข้องกับการเดิมพันเงินจริง. ด้วยเกมยอดนิยมอย่างบาคาร่า, เสือมังกร, ไฮโล, รูเล็ต, น้ำเต้าปูปลา, และอื่นๆ อีกมากมาย, คุณสามารถเพลิดเพลินไปกับการเล่นเกมในบรรยากาศคาสิโนจริงโดยไม่มีความเสี่ยง. เรามุ่งมั่นให้บริการเกมคุณภาพสูงที่ทุกคนสามารถเข้าถึงได้ฟรี, ตลอด 24 ชั่วโมง.</p>
 <div className="xxx"></div>
 <div className="pg">  
-     <img src="/imge/01.png" className='pgimg' alt="PG" />
+
+
+   <Image src="/imge/02.jpg"  width={1480} height={680} alt="PG"className='imge' />
      </div>
 <h3>ไม่ต้องเสียค่าสมัคร – เพียงสมัครและเล่น!</h3>
 <h5>เรายินดีต้อนรับทุกคนให้เข้าร่วมความสนุกสนานกับเกมออนไลน์ฟรีที่ <strong>PG เว็บตรง</strong></h5>
@@ -170,7 +179,8 @@ export default function page() {
 </p>
 <div className="xxx"></div>
 <div className="pg">  
-     <img src="/img/all/xx.png" className='pgimg' alt="PG" />
+
+     <Image src="/img/all/xx.png"  width={1480} height={680} alt="PG"className='imge' />
      </div>
 
 </div>
