@@ -2,13 +2,13 @@
 
 import React from 'react'
 import Head from 'next/head'
-import { GoogleTagManager } from '@next/third-parties/google'
+
 
 
 export default function page() {
   return (
     <>
-<GoogleTagManager gtmId="GTM-N27Q7BXD" />
+
 
 
      <header className="text-center">
