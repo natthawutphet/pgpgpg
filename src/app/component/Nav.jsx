@@ -18,28 +18,28 @@ function Nav() {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" id='pgnav' aria-current="page" href="https://thaisocialforme.com/">Home</Link>
+          <Link className="nav-link active" id='pgnav' aria-current="page" href="https://www.pgbet-168.com/">Home</Link>
         </li>
         <li className="nav-item" >
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/slot">สล็อตออนไลน์</Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/slot">สล็อตออนไลน์</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/casino">casino</Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/casino">casino</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/football">ฟุตบอล</Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/football">ฟุตบอล</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/sport">กีฬา</Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/sport">กีฬา</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/fish">ยิงปลา</Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/fish">ยิงปลา</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/lottery">หวย</Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/lottery">หวย</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="https://thaisocialforme.com/contact">  ติดต่อเรา </Link>
+          <Link className="nav-link" id='pgnav' href="https://www.pgbet-168.com/contact">  ติดต่อเรา </Link>
         </li>
       </ul>
       <span className="navbar-text">

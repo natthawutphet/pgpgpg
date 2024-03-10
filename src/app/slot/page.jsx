@@ -16,7 +16,7 @@ function page() {
 
     </Head>
     <div className="container text-center">
-      <h1>เกม<strong> สล็อต</strong>ฟรีบนแพลตฟอร์มเกม: <strong> เกม<strong> สล็อต</strong></strong> กลับ <Link href='https://thaisocialforme.com/'><strong>PG เว็บตรง</strong></Link>
+      <h1>เกม<strong> สล็อต</strong>ฟรีบนแพลตฟอร์มเกม: <strong> เกม<strong> สล็อต</strong></strong> กลับ <Link href='https://www.pgbet-168.com/'><strong>PG เว็บตรง</strong></Link>
       </h1>
 
         <div className="slot">
