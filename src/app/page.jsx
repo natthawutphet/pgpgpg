@@ -2,18 +2,14 @@
 
 import React from 'react'
 import Head from 'next/head'
+import { GoogleTagManager } from '@next/third-parties/google'
+
 
 export default function page() {
   return (
     <>
+<GoogleTagManager gtmId="GTM-XYZ" />
 
-<Head>
-<title>PG เว็บตรง มั่นคงอันดับ 1 ในไทย </title>
-<meta name="description" content="PG เว็บตรง มั่นคงอันดับ 1 ในไทย PG เว็บตรง แหล่งรวมเกมออนไลน์สุดสนุก" />
-
-
-  
-</Head>
 
      <header className="text-center">
 

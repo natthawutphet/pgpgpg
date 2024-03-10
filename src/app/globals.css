@@ -21,6 +21,20 @@ main {
     height: 100%;
     color: aliceblue;
 }
+.sish{
+    background: url('/img/all/bg4.jpg');
+    background-size:100% 100% ;
+    background-attachment:fixed ;
+    height: 100%;
+    color: aliceblue;
+}
+.casino{
+    background: url('/img/all/bg10.jpg');
+    background-size:100% 100% ;
+    background-attachment:fixed ;
+    height: 100%;
+    color: aliceblue;
+}
 
 
 
