@@ -6,6 +6,7 @@ import Footer from "./component/Footer";
 import Footerbar from "./component/Footerbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
+import Script from 'next/script';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -77,7 +78,22 @@ export default function RootLayout({ children }) {
 
         </Head>
         <Nav/>
-    
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=GTM-N27Q7BXD"
+        strategy="afterInteractive"
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-N27Q7BXD');
+          `,
+        }}
+      />
 
 
         {children}
