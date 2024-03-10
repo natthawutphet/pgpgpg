@@ -13,9 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 
   title: "PG เว็บตรง เว็บใหญ่ปลอดภัย มั่นคงอันดับ 1 ในไทย",
-  description: "PG เว็บตรง คาสิโนออนไลน์ฟรี – เพลิดเพลินไปกับเกมสดและออนไลน์!",
-  title: "PG เว็บตรง มั่นคงอันดับ 1 ในไทย",
-  description: "PG เว็บตรง มั่นคงอันดับ 1 ในไทย PG เว็บตรง แหล่งรวมเกมออนไลน์สุดสนุก",
+  description: "PG เว็บตรง คาสิโนออนไลน์ฟรี  เพลิดเพลินไปกับเกมสดและออนไลน์!",
 };
 
 export default function RootLayout({ children }) {
@@ -72,14 +70,26 @@ export default function RootLayout({ children }) {
  <link rel="canonical" href='https://www.thaisocialforme.com/' />
 
 
-
+ 
+        <script dangerouslySetInnerHTML={{
+            __html: `(function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-N27Q7BXD');`
+        }}></script>
+    
 
 
         </Head>
 
         <body className={inter.className}>
 
-      
+   
+        <noscript dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N27Q7BXD" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
+        }}></noscript>
+ 
         <Nav/>
     
 
@@ -89,8 +99,8 @@ export default function RootLayout({ children }) {
         <Footer/>
         <Footerbar/>
       
-          <Main />
-          <NextScript />
+        
+     
 
         <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         </body>
