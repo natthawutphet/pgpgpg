@@ -6,7 +6,6 @@ import Footer from "./component/Footer";
 import Footerbar from "./component/Footerbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
-import Script from 'next/script';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
 
-      <body className={inter.className}>
+    
         <Head>
 
         <script type="application/ld+json">
@@ -74,32 +73,33 @@ export default function RootLayout({ children }) {
 
 
 
+ <script dangerouslySetInnerHTML={{ 
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-N27Q7BXD');`,
+          }} />
 
 
         </Head>
+
+        <body className={inter.className}>
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N27Q7BXD"
+            height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
         <Nav/>
-        {/* <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GTM-N27Q7BXD"
-        strategy="afterInteractive"
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'GTM-N27Q7BXD');
-          `,
-        }}
-      />
- */}
+    
+
 
         {children}
         
         <Footer/>
         <Footerbar/>
+      
+          <Main />
+          <NextScript />
+
         <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         </body>
      
