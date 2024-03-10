@@ -40,11 +40,10 @@ function page() {
   <p>การเล่นแบบพร้อมเพลงและการแข่งขัน: บางเกมยิงปลามีระบบเพลงและเสียงที่สนุกสนานเพื่อเพิ่มความตื่นเต้น และบางที่มีการจัดการแข่งขันระหว่างผู้เล่นเพื่อเพิ่มความสนุกสนาน.
 
 </p>
-
-  <img src="/img/imgf/Gamef (9).png" alt="" />
-  <img src="/img/imgf/Gamef (10).png" alt="" />
-<h3>ความนิยม:<Link href='https://thaisocialforme.com/'><strong> เกมยิงปลา</strong></Link> เกมยิงปลา <Link href='https://thaisocialforme.com/'><strong>PG เว็บตรง</strong></Link></h3>
-<p>ความนิยม: เกมยิงปลาได้รับความนิยมอย่างมากในประเทศตะวันออกเฉียงใต้ และมักเป็นที่รู้จักในชื่อเกม "Fish Hunter" หรือ "Fish Shooting" ในบางพื้นที่.
+  <img src="/img/imgf/Gamef (9).png" alt="เกมยิงปลา" />
+  <img src="/img/imgf/Gamef (10).png" alt="เกมยิงปลา" />
+<h3>ความนิยม:</h3><Link href='https://thaisocialforme.com/'><strong> เกมยิงปลา</strong></Link> เกมยิงปลา <Link href='https://thaisocialforme.com/'><strong>PG เว็บตรง</strong></Link>
+<p>ความนิยม: เกมยิงปลาได้รับความนิยมอย่างมากในประเทศตะวันออกเฉียงใต้ และมักเป็นที่รู้จักในชื่อเกม Fish Hunter Fish Shooting ในบางพื้นที่
 
 </p>
 

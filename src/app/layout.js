@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
 
         </Head>
         <Nav/>
-        <Script
+        {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=GTM-N27Q7BXD"
         strategy="afterInteractive"
       />
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
           `,
         }}
       />
-
+ */}
 
         {children}
         
