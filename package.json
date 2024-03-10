@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "generate-sitemap": "ts-node scripts/generate-sitemap.ts",
-    "build": "next build && npm run generate-sitemap",
     "start": "next start",
-    "build:sitemap": "next-sitemap",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build": "next build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
