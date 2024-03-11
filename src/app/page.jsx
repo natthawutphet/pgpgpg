@@ -21,22 +21,22 @@ export default function page() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <div className="sliimg">  
-      <Image src="/img/all/pro01.jpg"  width={480} height={480} className='imge' alt="PG" />
+      <Image src="/img/all/pro01.jpg"  width={880} height={480} className='imge' alt="PG" />
       </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="/img/all/pro01.jpg"  width={480} height={480} alt="PG"className='imge' />
+    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="/img/all/pro01.jpg"  width={480} height={480} alt="PG" className='imge'/>
+    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG" className='imge'/>
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="/img/all/pro01.jpg"  width={480} height={480} alt="PG"className='imge' />
+    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
     </div>
     </div>
   </div>
@@ -90,7 +90,7 @@ export default function page() {
       </p>
      
      
-      <Image src="/img/all/xx.png"  width={480} height={480} alt="PG"className='imge' />
+      <Image src="/img/all/xx.png"  width={680} height={400} alt="PG"className='imge' />
      
      
      </div>  
@@ -105,13 +105,13 @@ export default function page() {
 
 </p>
         <div className="pg">  
-        <Image src="/img/all/03.jpg"  width={480} height={480} alt="PG"className='imge' />
+        <Image src="/img/all/03.jpg"  width={880} height={400} alt="PG"className='imge' />
      </div>
      <div className="xxx"></div>
         <h3>สนุกได้ทุกเวลา, ทุกที่ – ไม่มีข้อจำกัด! <strong>PG เว็บตรง</strong></h3>
 
         <div className="pg">  
-        <Image src="/imge/1.gif"  width={980} height={480} alt="PG"className='imge' />
+        <Image src="/imge/1.gif"  width={980} height={700} alt="PG"className='imge' />
      </div>
 
        <p><strong>PG เว็บตรง</strong>ระบบฝากถอนออโต้? ไม่ใช่ที่นี่! เพราะเราไม่มีการเดิมพันเงินจริง, ทุกการเล่นเกมที่นี่คือการเล่นฟรี 100%. เพียงสมัครสมาชิกกับเรา, คุณก็พร้อมดำดิ่งสู่โลกแห่งเกมออนไลน์ที่หลากหลาย – เล่นได้ตลอด 24 ชั่วโมง, ไม่ว่าจะเป็นเกมสปอร์ต, เกมคาสิโนสด, หรือเกมอื่นๆ อีกมากมาย.
@@ -180,7 +180,7 @@ export default function page() {
 <div className="xxx"></div>
 <div className="pg">  
 
-     <Image src="/img/all/xx.png"  width={1480} height={680} alt="PG"className='imge' />
+     <Image src="/img/all/xx.png"  width={1480} height={480} alt="PG"className='imge' />
      </div>
 
 </div>

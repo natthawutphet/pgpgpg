@@ -1,6 +1,6 @@
-module.exports = {
-    images: {
-      domains: ['borntodev.com'],
-    },
-  }
+// module.exports = {
+//     images: {
+//       domains: ['borntodev.com'],
+//     },
+//   }
   

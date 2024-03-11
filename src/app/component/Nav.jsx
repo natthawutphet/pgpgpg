@@ -43,9 +43,14 @@ function Nav() {
         </li>
       </ul>
       <span className="navbar-text">
-      <button type="button" className="btn btn-primary mx-2 ">เข้าสู่ระบบ</button>
+      {/* <button type="button" className="btn btn-primary mx-2 ">เข้าสู่ระบบ</button>
 
-      <button type="button" className="btn btn-success mx-2">สมัครสมาชิก</button>
+      <button type="button" className="btn btn-success mx-2">สมัครสมาชิก</button> */}
+    <Link href='/'>
+    <Image src="/img/login.png" width={200} height={50} alt="" /> </Link>
+
+    <Link href='/'>
+    <Image src="/img/btn.png" width={200} height={50} alt="" /> </Link>
       
       </span>
     </div>
