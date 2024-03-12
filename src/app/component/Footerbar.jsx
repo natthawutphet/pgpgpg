@@ -9,7 +9,7 @@ function Footerbar() {
       <>  
 
 <div className="fixed-bottom" id='bar'>
-  <div className="text-bg-dark">
+  <div className="text-bg-dark linecuttop">
 <div className="text-center"> 
 
   <div className="d-flex justify-content-around">

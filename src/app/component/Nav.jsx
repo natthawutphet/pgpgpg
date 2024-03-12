@@ -7,7 +7,7 @@ function Nav() {
     <>
       
 
-      <nav className="navbar navbar-expand-lg linecuttop01 linecutbt01 ">
+      <nav className="navbar navbar-expand-lg linecut">
   <div className="container-fluid">
   <Link href="https://www.pgbet-168.com" target='_blank' >
     <Image  src="/img/favicon.ico" alt="logo" width={60} height={60}/>
