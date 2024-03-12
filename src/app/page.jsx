@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -26,17 +27,17 @@ export default function page() {
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="https://www.pgbet-168.com/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
+    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="https://www.pgbet-168.com/img/all/pro01.jpg"  width={880} height={480} alt="PG" className='imge'/>
+    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG" className='imge'/>
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="https://www.pgbet-168.com/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
+    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
     </div>
     </div>
   </div>
@@ -63,6 +64,8 @@ export default function page() {
      <div className="text w-75 mx-auto  "> 
      <p>ยินดีต้อนรับทุกท่านที่มาเยี่ยมชมเว็บไซต์เรา! เรามุ่งมั่นที่จะให้ท่านเพลิดเพลินและสนุกสนานกับการเล่นเกมออนไลน์ได้ทุกเมื่อ ท่านสามารถเข้ามาเล่นเกมส์ฟรีและไม่มีค่าบริการใด ๆ ทั้งสิ้น และสามารถสนุกไปกับเกมส์จาก <strong>PG เว็บตรง</strong> ได้ทุกที่ทุกเวลา</p>
      </div>
+       <h2> เว็บไซต์ของเคลือค่าย <strong>PG เว็บตรง</strong><Link href="https://www.pgbet-168.com" target='_blank' > www.pgbet-168.com </Link> </h2>
+
      <p className="xxx"></p>
 
 

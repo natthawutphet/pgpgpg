@@ -116,7 +116,8 @@ section {
 
 
 footer {
-   background-color: rgb(137, 137, 137);
+   background-color: rgb(225, 225, 225);
+   color: black;
 }
 
 .imgt {
@@ -126,11 +127,14 @@ footer {
 .imge {
     width: 600px;
 }
+#bar {
+    height: 80px;
 
-
-
-
-
+}
+.flokx {
+    font-size: 15px;
+    color: aliceblue;
+}
 
 
 @media screen and (max-width: 580px) {
@@ -153,7 +157,11 @@ footer {
     width: 100%;
     height: auto;
 }
+.flokx {
+    font-size: 10px;
+}
+#bar {
+    height: 80px;
 
-
-
+}
 }

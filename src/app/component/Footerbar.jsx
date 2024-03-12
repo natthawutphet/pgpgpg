@@ -7,66 +7,46 @@ import Link from 'next/link';
 function Footerbar() {
   return (
       <>  
-     
-    <div className="x-button-actions" id="account-actions-mobile">
-      <div className="-outer-wrapper">
-        <div className="-left-wrapper">
-          <span className="-item-wrapper">
-            <span className="-ic-img">
-              <span className="-textfooter d-block">
-                <a href="#">เข้าสู่ระบบ</a>
-              </span>
-              <Link href="#">
-                <Image src="/img/all/login01.png" width={100} height={100} alt="" />
-              </Link>
-            </span>
-          </span>
-          <span className="-item-wrapper">
-            <span className="-ic-img">
-              <span className="-textfooter d-block">
-                <a href="#">สมัครสมาชิก</a>
-              </span>
-              <a href="#">
-              <Image src="/img/all/register01.png" width={100} height={100} alt="" />
-              </a>
-            </span>
-          </span>
-        </div>
-        <span className="-center-wrapper js-footer-lobby-selector js-menu-mobile-container">
-          <div className="-selected">
-         
-          <Link href="/" ><img src="/logo.ico" alt="" /></Link>
-          </div>
-        </span>
-        <div className="-fake-center-bg-wrapper">
-        
-        </div>
-        <div className="-right-wrapper">
-          <span className="-item-wrapper">
-            <span className="-ic-img">
-              <span className="-textfooter d-block">
-                <a href="">แนะนำเพื่อน</a>
-              </span>
-              <Image src="/img/all/fff.png" width={100} height={100} alt="" />
 
-            </span>
-          </span>
-          <span className="-item-wrapper">
-            <span className="-ic-img">
-              <span className="-textfooter d-block">
-                <a href="#">ติดต่อเรา</a>
-              </span>
-              <a href="#">
-              <Image src="/img/all/lineneon.png" width={100} height={100} alt="" />
-              </a>
-            </span>
-          </span>
-        </div>
-        <div className="-fully-overlay js-footer-lobby-overlay"></div>
-      </div>
+<div className="fixed-bottom" id='bar'>
+  <div className="text-bg-dark">
+<div className="text-center"> 
+
+  <div className="d-flex justify-content-around">
+     <Link href="/" type="button" className="btn">
+      <Image src="/img/all/login01.png" width={50} height={50} alt="" />
+      <p className="flokx">เข้าสู่ระบบ</p>
+      </Link>
+
+
+
+    <Link href="/" type="button" className="btn">
+      <Image src="/img/all/register01.png" width={50} height={50} alt="" />
+      <p className="flokx">สมัครสมาชิก</p>
+      </Link>
+
+
+    <Link href="/" type="button" className="btn"><Image src="/img/homes.png" width={70} height={70} alt="" /></Link>
+
+
+    <Link href="/" type="button" className="btn"><Image src="/img/all/lineneon.png" width={50} height={50} alt="" />
+    <p className="flokx">ติดต่อเรา</p></Link>
+
+    <Link href="/" type="button" className="btn"><Image src="/img/all/fff.png" width={50} height={50} alt="" />
+    <p className="flokx">แนะนำเพื่อน</p>
+    </Link>
+     
     </div>
-    <Image src="/favicon.ico" width={100} height={100} alt="" />
-    </>
+  </div>
+  </div>
+</div>
+
+
+ 
+
+
+
+   </>
   );
 }
 

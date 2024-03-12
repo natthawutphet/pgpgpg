@@ -30,10 +30,10 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "PG เว็บตรง",
-              "url": "https://www.pgbet-168.com/",
-              "Image": "https://www.pgbet-168.com/img/all/about2.png",
+              "url": "https://thaisocialforme.com/",
+              "Image": "https://thaisocialforme.com/img/all/about2.png",
               "sameAs": [
-                "https://www.pgbet-168.com/favicon.ico"
+                "https://thaisocialforme.com/favicon.ico"
               ]
             }
           `}
@@ -42,32 +42,32 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="g_4hsj1TVTqA-qt5kENBFgo24afTX6HFTUUoJw-K2v0" />      
 
 <meta name="keywords" content="สล็อตเว็บตรง,เว็บสล็อตเว็บตรง,สล็อตเว็บตรงแตกง่าย,สล็อตเว็บตรงวอเลท,สล็อตเว็บตรงล่าสุด,สล็อต pg,pg สล็อต,เว็บตรงสล็อต,เว็บตรง,สล็อต,สล็อตpg,สล็อตแตกง่าย,เว็บสล็อต,เว็บสล็อตpg,สล็อตpgเว็บตรง,pg,เว็บสล็อตแตกง่าย,สล็อตวอเลท,สล็อตแตกง่ายเว็บตรง,สมัครสล็อตเว็บตรง,สล็อตแตกง่ายวอเลท,สล็อตpgแตกง่าย,สล็อตวอเลทแตกง่าย,สล็อตวอเลทเว็บตรง,สล็อตวอเลท pg,pg สล็อต ล่าสุด,เว็บสล็อตเว็บตรง วอลเล็ต,สล็อตแตกง่ายล่าสุด,สล็อตpgวอเลท,สล็อตpgล่าสุด,pg ทุนน้อย,สล็อตทุนน้อยแตกง่าย "/>
-<link rel="canonical" href="https://www.pgbet-168.com" />
+<link rel="canonical" href="https://thaisocialforme.com" />
 <meta name="robots" content="index, follow" />
 <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา" />
 <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook" />
-<meta property="og:url" content="https://www.pgbet-168.com/" />
+<meta property="og:url" content="https://thaisocialforme.com/" />
 <meta property="og:type" content="website" />
 
-<meta name="twitter:card" content="https://www.pgbet-168.com/favicon.ico" />
+<meta name="twitter:card" content="https://thaisocialforme.com/favicon.ico" />
 
 
-<meta property="og:image" content="https://www.pgbet-168.com/favicon.ico" />
+<meta property="og:image" content="https://thaisocialforme.com/favicon.ico" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.pgbet-168.com" />
+<meta property="og:url" content="https://thaisocialforme.com" />
 
-<meta name="twitter:card" content="https://www.pgbet-168.com/favicon.ico" />
-<meta name="twitter:image" content="https://www.pgbet-168.com/favicon.ico" />
+<meta name="twitter:card" content="https://thaisocialforme.com/favicon.ico" />
+<meta name="twitter:image" content="https://thaisocialforme.com/favicon.ico" />
 <meta name="twitter:title" content="Tiรับทำโฆษณาออนไลน์สายเทา" />
 <meta name="twitter:description" content="รับทำโฆษณาออนไลน์สายเทา ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <meta name="google-site-verification" content="PbQl1IGdzrIFiFnnE39varHoAFip5AIAk4QLxK-Nyto" />
- <meta property="og:image" content="https://www.service-ads.com/logo.ico"/>
+ <meta property="og:image" content="https://thaisocialforme.com/logo.png"/>
 
- <link rel="canonical" href='https://www.pgbet-168.com/' />
+ <link rel="canonical" href='https://thaisocialforme.com/' />
 
 
  
@@ -112,6 +112,7 @@ export default function RootLayout({ children }) {
         
         <Footer/>
         <Footerbar/>
+      
       
         
      
