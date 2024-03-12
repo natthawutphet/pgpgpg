@@ -26,17 +26,17 @@ export default function page() {
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
+    <Image src="https://www.pgbet-168.com/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG" className='imge'/>
+    <Image src="https://www.pgbet-168.com/img/all/pro01.jpg"  width={880} height={480} alt="PG" className='imge'/>
     </div>
     </div>
     <div className="carousel-item">
     <div className="sliimg"> 
-    <Image src="/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
+    <Image src="https://www.pgbet-168.com/img/all/pro01.jpg"  width={880} height={480} alt="PG"className='imge' />
     </div>
     </div>
   </div>
