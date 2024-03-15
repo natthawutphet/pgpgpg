@@ -6,6 +6,7 @@ async function generateSitemap() {
     'pages/**/*.js',
     '!pages/_*.js',
     '!pages/api',
+      
     // ระบุเพิ่มเติมหากมี
   ]);
 

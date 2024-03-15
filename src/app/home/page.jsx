@@ -2,20 +2,17 @@
 
 // ค่าเริ่มต้นควรเป็น array ว่าง
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import Link from 'next/link';
 
 const AddPage = () => {
   const [posts, setPosts] = useState([]); 
   const [title, setTitle] = useState('');
-  const [hLine, setHLine] = useState('');
+  const [headline, setHeadline] = useState('');
   const [imageUrl, setImageUrl] = useState('');
   const [youtube, setYoutube] = useState('');
-  const [ppp, setPPP] = useState('');
+  const [content, setContent] = useState('');
 
-  const [error, setError] = useState('');
-  const [message, setMessage] = useState('');
-  
+
 
 
   useEffect(() => {
@@ -26,7 +23,7 @@ const AddPage = () => {
         setPosts(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
-        setError('Error fetching data');
+   
       }
     };
 
@@ -44,10 +41,10 @@ const AddPage = () => {
         },
         body: JSON.stringify({
           title, 
-          h_line: hLine, 
+          headline, 
           img: imageUrl, 
           youtube, 
-          ppp,
+          content,
         }),
       });
   
@@ -60,10 +57,10 @@ const AddPage = () => {
       setPosts([...posts, data]); // Update the post list after adding new data
       // Reset state after adding data
       setTitle('');
-      setHLine('');
+      setHeadline('');
       setImageUrl('');
       setYoutube('');
-      setPPP('');
+      setContent('');
     } catch (error) {
       console.error('Error adding data:', error);
       alert('Error adding data');
@@ -90,14 +87,19 @@ const AddPage = () => {
 
 
   return (
+     <>  
+    <div>
+  
+
+  </div>
     <div className="container text-center mt-5 w-50">  
     <div className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
     <form onSubmit={handleSubmit}>
       <input value={title} onChange={e => setTitle(e.target.value)} placeholder="Title" className='form-control mb-3' required />
-      <input value={hLine} onChange={e => setHLine(e.target.value)} placeholder="Head Line" className='form-control mb-3' required />
+      <input value={headline} onChange={e => setHeadline(e.target.value)} placeholder="Head Line" className='form-control mb-3' required />
       <input value={imageUrl} onChange={e => setImageUrl(e.target.value)} placeholder="Image URL" className='form-control mb-3' required />
       <input value={youtube} onChange={e => setYoutube(e.target.value)} placeholder="YouTube Link" className='form-control mb-3'  />
-      <input value={ppp} onChange={e => setPPP(e.target.value)} placeholder="PPP" className='form-control mb-3' required />
+      <input value={content} onChange={e => setContent(e.target.value)} placeholder="content" className='form-control mb-3' required />
       <button type="submit" className='btn btn-success' >Submit</button>
     
       </form>
@@ -125,6 +127,8 @@ const AddPage = () => {
 ))}
       
     </div>     </div></div>
+
+    </>
   );
 };
 
