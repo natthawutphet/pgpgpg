@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -24,7 +26,7 @@ function Nav() {
           <Link className="nav-link" id='pgnav' href="/slot">สล็อตออนไลน์</Link>
         </li>
         <li className="nav-item" >
-          <Link className="nav-link" id='pgnav' href="/posts">PostPage</Link>
+          <Link className="nav-link" id='pgnav' href="/posts">posts</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" id='pgnav' href="/casino">casino</Link>
@@ -44,8 +46,15 @@ function Nav() {
         <li className="nav-item">
           <Link className="nav-link" id='pgnav' href="/contact">  ติดต่อเรา </Link>
         </li>
+     
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/Post">  admin </Link>
+          <Link className="nav-link" id='pgnav' href="/home">  homez </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" id='pgnav' href="/">   </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" id='pgnav' href="/">   </Link>
         </li>
       </ul>
       <span className="navbar-text">

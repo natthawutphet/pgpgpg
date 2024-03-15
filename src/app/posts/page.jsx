@@ -6,7 +6,7 @@ const AdsPage = () => {
 
   useEffect(() => {
     const fetchAds = async () => {
-      const response = await fetch('/api/getPosts');
+      const response = await fetch('https://api.pgbet-168.com/api');
       const adsData = await response.json();
       setAds(adsData);
     };
@@ -22,7 +22,7 @@ const AdsPage = () => {
       {ads.length > 0 && ads.map(ad => (
         <div key={ad.id} className="container text-center">
           <div className="card mb-3">
-            <div className="title h1">{ad.title}</div>
+            <div className="title h2">{ad.title}</div>
             {ad.img ? (
               <img src={ad.img} alt={ad.title} style={{ maxWidth: '100%', height: 'auto' }} className="card-img-top" />
             ) : ad.youtube ? (

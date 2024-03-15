@@ -3,14 +3,14 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
-
-const AddPage = () => {
+  
+  const AddPage = () => {
   const [posts, setPosts] = useState([]);
   const [title, setTitle] = useState('');
-  const [content, setContent] = useState(''); // เพิ่ม state สำหรับเก็บค่า content
-  const [headline, setHeadline] = useState(''); // เพิ่ม state สำหรับเก็บค่า headline
-  const [img, setImg] = useState(''); // เพิ่ม state สำหรับเก็บค่า img
-  const [youtube, setYoutube] = useState(''); // เพิ่ม state สำหรับเก็บค่า youtube
+  const [content, setContent] = useState(''); 
+  const [headline, setHeadline] = useState(''); 
+  const [img, setImg] = useState(''); 
+  const [youtube, setYoutube] = useState('');
   const [ppp, setPPP] = useState('');
 
   useEffect(() => {
