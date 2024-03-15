@@ -90,14 +90,14 @@ const AddPage: React.FC<{ posts: Post[] }> = ({ posts: initialPosts }) => {
             onChange={e => setImageUrl(e.target.value)}
             placeholder="Image URL"
             className="form-control mb-3"
-            required
+         
           />
           <input
             value={youtube}
             onChange={e => setYoutube(e.target.value)}
             placeholder="YouTube Link"
             className="form-control mb-3"
-            required
+          
           />
           <input
             value={ppp}
