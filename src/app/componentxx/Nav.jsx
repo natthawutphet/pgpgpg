@@ -45,7 +45,7 @@ function Nav() {
           <Link className="nav-link" id='pgnav' href="/contact">  ติดต่อเรา </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/admin">  admin </Link>
+          <Link className="nav-link" id='pgnav' href="/Post">  admin </Link>
         </li>
       </ul>
       <span className="navbar-text">
