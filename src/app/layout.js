@@ -1,9 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "./style.css";
-import Nav from "./component/Nav";
-import Footer from "./component/Footer";
-import Footerbar from "./component/Footerbar";
+import Nav from "./componentxx/Nav";
+import Footer from "./componentxx/Footer";
+import Footerbar from "./componentxx/Footerbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
 
