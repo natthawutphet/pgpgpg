@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "next", "next/core-web-vitals"],
+  "rules": {
+    // เพิ่มกฎที่คุณต้องการปรับแต่งที่นี่
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"], // ระบุ pattern ของไฟล์ที่คุณต้องการ override
+      "rules": {
+        "rule-name": "off" // ปิดการใช้งานกฎที่คุณไม่ต้องการ
+      }
+    }
+  ]
+}

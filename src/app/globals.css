@@ -1,0 +1,181 @@
+header {
+    background: url('/img/all/bg2.jpg');
+    height: 700px;
+    color: aliceblue;
+    background-attachment:fixed ;
+}
+main {
+    background: url('/img/all/bg1.jpg');
+    background-size:100% 100% ;
+    height: 100%;
+    color: aliceblue;
+    background-attachment:fixed ;
+}
+.about{
+    background: url('/img/all/bg.jpg');
+    background-size:100% 100% ;
+    height: 100%;
+    color: aliceblue;
+    background-attachment:fixed ;
+}
+.pggame{
+    background: url('/img/all/bg3.jpg');
+    background-size:100% 100% ;
+    height: 100%;
+    color: aliceblue;
+    background-attachment:fixed ;
+}
+.sish{
+    background: url('/img/all/bg4.jpg');
+    background-size:100% 100% ;
+    background-attachment:fixed ;
+    height: 100%;
+    color: aliceblue;
+   
+}
+.casino{
+    background: url('/img/all/bg10.jpg');
+    background-size:100% 100% ;
+    background-attachment:fixed ;
+    height: 100%;
+    color: aliceblue;
+}
+
+.imge {
+    width: 100%;
+}
+
+
+
+nav {
+    background-color:#4f4f4f ;
+    background-size:cover;
+    color: rgb(239, 244, 249);
+}
+
+.img {
+    max-width: 500px;
+    height: auto;
+}
+
+
+
+
+
+
+
+#pgnav {
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+.sliimg {
+    max-width: 1200px;
+    margin: auto;
+}
+.sliimg img {
+    width: 100%;
+}
+
+.logo {
+    width: 65px;
+}
+
+
+.boxt {
+    display: flex;
+    
+}
+.timg {
+    width: 30%;
+
+}
+section {
+    width: 100%;
+    
+}
+
+
+.xxx {
+    margin: 20px;
+    width: 100%;
+    height: 4px;
+    z-index: 9;
+    background: url(/img/img/linecut.gif);
+    background-size: 100%;
+}
+
+.pg {
+    max-width: 900px;
+    margin: auto;
+}
+.pg img {
+    width: 100%;
+}
+
+
+
+footer {
+   background-color: rgb(225, 225, 225);
+   color: black;
+}
+
+.imgt {
+    display: flex;
+    max-width: 1000px;
+}
+.imge {
+    width: 600px;
+}
+#bar {
+    height: 80px;
+
+}
+.flokx {
+    font-size: 15px;
+    color: aliceblue;
+}
+.vdo {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 580px) {
+
+    header {
+        height: 400px;
+    }
+    .timg {
+        width: 33%;
+    
+    }
+   .img {
+    width: 80%;
+   }
+   .imgt {
+    display: block;
+    max-width: 400px;
+}
+.imge {
+    width: 100%;
+    height: auto;
+}
+.flokx {
+    font-size: 10px;
+}
+#bar {
+    height: 80px;
+
+} 
+.vdo {
+    width: 350px;
+    height: 200px;
+}
+}
