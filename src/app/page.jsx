@@ -56,12 +56,13 @@ export default function page() {
 
 
         <section className="top "> 
-      <h1 className='p-3 '>ยินดีตอนรับเข้าสู่เว็บไซต์ <strong>PG เว็บตรง</strong></h1>
+      <h1 className='p-3 '>ยินดีตอนรับเข้าสู่เว็บไซต์ <strong>PG เว็บตรง</strong> </h1>
+      <h4>แจกฟรี300 สมาชิกใหม่รับเลยฟรีๆ 300  </h4>
       </section>
 
 
       <div className="sliimg">  
-      <Image src="/img/h.jpg"  width={980} height={580} className='imge' alt="PG" />
+      <Image src="/img/h1.jpg"  width={980} height={400} className='imge' alt="PG" />
       </div>
      
      <h1 className='p-3'>สนุกไปกับเกมส์จาก <strong>PG เว็บตรง</strong> ได้ทุกที่ทุกเวลา
@@ -129,13 +130,13 @@ export default function page() {
 
 </p>
         <div className="pg">  
-        <Image src="/img/all/03.jpg"  width={880} height={400} alt="PG"className='imge' />
+        <Image src="/img/h.jpg"  width={900} height={450} alt="PG"className='imge' />
      </div>
      <div className="xxx"></div>
         <h3>สนุกได้ทุกเวลา, ทุกที่ – ไม่มีข้อจำกัด! <strong>PG เว็บตรง</strong></h3>
 
         <div className="pg">  
-        <Image src="/imge/1.gif"  width={980} height={700} alt="PG"className='imge' />
+        <Image src="/img/แจกเครดิตฟรี_500.png"  width={980} height={700} alt="PG"className='imge' />
      </div>
 
        <p><strong>PG เว็บตรง</strong>ระบบฝากถอนออโต้? ไม่ใช่ที่นี่! เพราะเราไม่มีการเดิมพันเงินจริง, ทุกการเล่นเกมที่นี่คือการเล่นฟรี 100%. เพียงสมัครสมาชิกกับเรา, คุณก็พร้อมดำดิ่งสู่โลกแห่งเกมออนไลน์ที่หลากหลาย – เล่นได้ตลอด 24 ชั่วโมง, ไม่ว่าจะเป็นเกมสปอร์ต, เกมคาสิโนสด, หรือเกมอื่นๆ อีกมากมาย.

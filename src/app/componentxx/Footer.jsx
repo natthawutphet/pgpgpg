@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 function Footer() {
   return (
     <>
 
 
-<footer className='container-fluid text-center mb-5 pb-5' >
+<footer className='container-fluid text-center mb-5' >
 
   <h1>PG เว็บตรง 100%</h1>
   <h4>บริการทุกช่องทางกับธนาคารชั้นนำของประเทศ</h4>
