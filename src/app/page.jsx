@@ -146,7 +146,7 @@ export default function page() {
      <h3>ทำไมต้องเลือก <strong>PG เว็บตรง</strong>
 </h3>
 <div className="pg">  
-<Image src="/imge/2.gif"  width={1480} height={680} alt="PG"className='imge' />
+<Image src="/img/PG.jpg"  width={1480} height={680} alt="PG"className='imge' />
      </div>
   <p> เล่นฟรี: ไม่มีค่าใช้จ่าย, ไม่มีการเดิมพัน, ไม่มีความเสี่ยง.
  </p>
@@ -158,7 +158,7 @@ export default function page() {
 </h3>
 <div className="xxx"></div>
 <div className="pg">  
-<Image src="/imge/3.gif"  width={1480} height={680} alt="PG"className='imge' />
+<Image src="/img/PG1.jpg"  width={1480} height={380} alt="PG"className='imge' />
      </div>
 <p>หากคุณมีคำถามหรือต้องการความช่วยเหลือ, ทีมงานของเราพร้อมให้บริการคุณตลอด 24 ชั่วโมงผ่านเว็บหลักของเรา. สมัครสมาชิกวันนี้เพื่อเข้าถึงเกมออนไลน์ฟรีที่คุณไม่ควรพลาด!</p>
 <div className="xxx"></div>
