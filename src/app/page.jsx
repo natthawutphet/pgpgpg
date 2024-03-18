@@ -57,7 +57,7 @@ export default function page() {
 
         <section className="top "> 
       <h1 className='p-3 '>ยินดีตอนรับเข้าสู่เว็บไซต์ <strong>PG เว็บตรง</strong> </h1>
-      <h3><strong>PG เว็บตรง</strong>แจกฟรี300 สมาชิกใหม่รับเลยฟรีๆ 300  </h3>
+      <h3> สมาชิกใหม่รับเลยฟรีๆ 300  </h3>
       </section>
 
 
