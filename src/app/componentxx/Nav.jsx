@@ -20,31 +20,31 @@ function Nav() {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" id='pgnav' aria-current="page" href="/">Home</Link>
+          <Link className="nav-link active"  aria-current="page" href="/">Home</Link>
         </li>
         <li className="nav-item" >
-          <Link className="nav-link" id='pgnav' href="/slot">สล็อตออนไลน์</Link>
+          <Link className="nav-link"  href="/slot">สล็อตออนไลน์</Link>
         </li>
         <li className="nav-item" >
-          <Link className="nav-link" id='pgnav' href="/posts">posts</Link>
+          <Link className="nav-link"  href="/posts">posts</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/casino">casino</Link>
+          <Link className="nav-link"  href="/casino">casino</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/football">ฟุตบอล</Link>
+          <Link className="nav-link"  href="/football">ฟุตบอล</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/sport">กีฬา</Link>
+          <Link className="nav-link"  href="/sport">กีฬา</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/fish">ยิงปลา</Link>
+          <Link className="nav-link"  href="/fish">ยิงปลา</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/lottery">หวย</Link>
+          <Link className="nav-link"  href="/lottery">หวย</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='pgnav' href="/contact">  ติดต่อเรา </Link>
+          <Link className="nav-link"  href="/contact">  ติดต่อเรา </Link>
         </li>
      
       

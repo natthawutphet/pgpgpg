@@ -10,7 +10,7 @@ function Footer() {
 <footer className='container-fluid text-center mb-5' >
 
   <h1>PG เว็บตรง 100%</h1>
-  <h4>บริการทุกช่องทางกับธนาคารชั้นนำของประเทศ</h4>
+  <h3>บริการทุกช่องทางกับธนาคารชั้นนำของประเทศ</h3>
 <p>พร้อมระบบฝาก-ถอน AUTO อัตโนมัติที่รวดเร็ว และ ทันสมัยที่สุดในปัจจุบัน</p>
  <div className="footer">  
 <Image src="/imge/bank.png" alt="bank" className='img m-2' width={580} height={100} />
